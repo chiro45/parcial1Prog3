@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechLearn Academy - La mejor academia online para aprender desarrollo web con mentores expertos y proyectos reales">
+    <meta name="keywords" content="programación, desarrollo web, cursos online, mentores, certificación">
+    <meta name="author" content="TechLearn Academy">
+    <title>TechLearn Academy - Transforma tu Futuro con Código | Cursos de Programación Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header">
+        <nav class="navigation">
+            <a href="#" class="navigation__logo">TechLearn Academy</a>
+            
+            <!-- Checkbox para menú hamburguesa (sin JS) -->
+            <input type="checkbox" id="menu-toggle" class="navigation__toggle">
+            <label for="menu-toggle" class="navigation__hamburger">
+                <span class="navigation__hamburger-line"></span>
+                <span class="navigation__hamburger-line"></span>
+                <span class="navigation__hamburger-line"></span>
+            </label>
+            
+            <ul class="navigation__menu">
+                <li class="navigation__item">
+                    <a href="#inicio" class="navigation__link navigation__link--active">Inicio</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#cursos" class="navigation__link">Cursos</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#testimonios" class="navigation__link">Testimonios</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#contacto" class="navigation__link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main">
+        <!-- Sección Hero -->
+        <section class="hero" id="inicio">
+            <div class="hero__container">
+                <h1 class="hero__title">Transforma tu Futuro con Código</h1>
+                <p class="hero__subtitle">Aprende desarrollo web con mentores expertos y proyectos reales</p>
+                <a href="#cursos" class="hero__button">Inscríbete Gratis</a>
+                <span class="hero__badge">50% descuento - Oferta limitada</span>
+            </div>
+        </section>
+
+        <!-- Sección de Servicios -->
+        <section class="services" id="cursos">
+            <div class="services__container">
+                <h2 class="services__title">Nuestros Servicios</h2>
+                <p class="services__description">
+                    Descubre todo lo que TechLearn Academy tiene para ofrecerte en tu camino hacia el éxito profesional
+                </p>
+                
+                <div class="services__grid">
+                    <article class="card">
+                        <span class="card__icon">📹</span>
+                        <h3 class="card__title">Clases en Vivo</h3>
+                        <p class="card__description">Interactúa con instructores en tiempo real</p>
+                    </article>
+                    
+                    <article class="card">
+                        <span class="card__icon">💼</span>
+                        <h3 class="card__title">Proyectos Reales</h3>
+                        <p class="card__description">Construye tu portfolio profesional</p>
+                    </article>
+                    
+                    <article class="card">
+                        <span class="card__icon">👨‍🏫</span>
+                        <h3 class="card__title">Mentoría 1:1</h3>
+                        <p class="card__description">Sesiones personalizadas semanales</p>
+                    </article>
+                    
+                    <article class="card card--featured">
+                        <span class="card__icon">🏆</span>
+                        <h3 class="card__title">Certificación</h3>
+                        <p class="card__description">Certificado con valor en la industria</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Testimonios -->
+        <section class="testimonials" id="testimonios">
+            <div class="testimonials__container">
+                <h2 class="testimonials__title">Lo que dicen nuestros estudiantes</h2>
+                
+                <div class="testimonials__wrapper">
+                    <article class="testimonial">
+                        <div class="testimonial__avatar">MG</div>
+                        <blockquote class="testimonial__text">
+                            "Conseguí trabajo en solo 3 meses después de empezar el curso. Los mentores son increíbles y el contenido es súper actualizado."
+                        </blockquote>
+                        <footer class="testimonial__footer">
+                            <cite class="testimonial__author">María González</cite>
+                            <span class="testimonial__role">Estudiante</span>
+                        </footer>
+                    </article>
+                    
+                    <article class="testimonial">
+                        <div class="testimonial__avatar">CR</div>
+                        <blockquote class="testimonial__text">
+                            "La mejor inversión en mi carrera profesional. Pasé de no saber nada a ser desarrollador junior en una startup."
+                        </blockquote>
+                        <footer class="testimonial__footer">
+                            <cite class="testimonial__author">Carlos Ruiz</cite>
+                            <span class="testimonial__role">Desarrollador Jr</span>
+                        </footer>
+                    </article>
+                    
+                    <article class="testimonial">
+                        <div class="testimonial__avatar">AM</div>
+                        <blockquote class="testimonial__text">
+                            "Ahora trabajo desde cualquier lugar del mundo como freelancer. TechLearn me dio las herramientas para ser independiente."
+                        </blockquote>
+                        <footer class="testimonial__footer">
+                            <cite class="testimonial__author">Ana Martínez</cite>
+                            <span class="testimonial__role">Freelancer</span>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="footer__container">
+            <div class="footer__content">
+                <!-- Columna 1: Logo y descripción -->
+                <div class="footer__column">
+                    <h3 class="footer__logo">TechLearn Academy</h3>
+                    <p class="footer__description">
+                        Transformamos vidas a través de la educación en tecnología. 
+                        Únete a miles de estudiantes que ya están construyendo su futuro.
+                    </p>
+                </div>
+                
+                <!-- Columna 2: Enlaces rápidos -->
+                <div class="footer__column">
+                    <h4 class="footer__heading">Recursos</h4>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Blog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Documentación</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Comunidad</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Eventos</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Carreras</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Columna 3: Información de contacto -->
+                <div class="footer__column">
+                    <h4 class="footer__heading">Contacto</h4>
+                    <address class="footer__contact">
+                        <p class="footer__contact-item">
+                            <strong>Email:</strong> info@techlearn.academy
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Teléfono:</strong> +1 234 567 8900
+                        </p>
+                        <p class="footer__contact-item">
+                            <strong>Dirección:</strong> Av. Tecnología 123, Silicon Valley, CA 94025
+                        </p>
+                    </address>
+                </div>
+            </div>
+            
+            <!-- Footer bottom con copyright -->
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    © 2024 TechLearn Academy | 
+                    <a href="#" class="footer__legal-link">Términos</a> | 
+                    <a href="#" class="footer__legal-link">Privacidad</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
